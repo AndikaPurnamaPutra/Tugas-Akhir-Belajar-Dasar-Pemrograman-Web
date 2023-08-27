@@ -335,6 +335,11 @@ footer {
 }
 
 /* Responsive */
+@media (min-width: 768px) {
+    header nav .navbar-wrapper.active {
+        height: unset;
+    }
+}
 @media (max-width: 768px) {
     main {
         flex-direction: column;
